@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+.header{
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-image: url('../images/Banner\ Image.png');
+    background-position: center;
+    background-size: cover;
+    margin: 20px 70px;
+    border-radius: 10px;
+    
+    
+}
+.banner{
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 25px;
+}
+
+/* Main */
+.discount h1{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+}
+.discount h4{
+    color: red;
+    text-align: center;
+}
+.discount h3{
+    text-align: center;
+    font-size: 30px;
+}
+.discount img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.midnight-party{
+    height: 70vh;
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 50px 70px 30px;
+    border-radius: 10px;
+}
+.section-content{
+    color: white;
+    font-size: 50px;
+    padding: 100px 300px 20px 100px;
+}
+.content{
+    padding: 0 250px 20px 100px;
+    color: white;
+}   
+.midnight-party a{
+    text-decoration: none;
+    color: white;
+    padding: 0 500px 100px 150px;
+    font-size: 20px;
+}
+.time-date{
+    background-color: pink;
+    background-position: center;
+    margin: 50px 70px 30px;
+    border-radius: 10px;
+    text-align: center;
+    height: 150px;
+    width: 1200px;
+}
+.time-date h5{
+    padding:20px 100px 10px;
+}
