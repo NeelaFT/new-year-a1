@@ -1,77 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
-/* Header */
-.header{
-    height: 70vh;
-    background-repeat: no-repeat;
-    background-image: url('../images/Banner\ Image.png');
-    background-position: center;
-    background-size: cover;
-    margin: 20px 70px;
-    border-radius: 10px;
-    
-    
+.container{
+    width: 1320px;
+    margin: 50px auto;
 }
-.banner{
-    color: white;
-    text-align: center;
-    padding-top: 200px;
-    font-size: 25px;
+.section-text{
+    font-family: "Inter", sans-serif;
+    color: #f00;
+    font-size: 24px;
+    font-weight: 500;
+}
+p{
+    color: #ffffffc2;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.para-comn{
+    color: #07021188;
+}
+.section-heading{
+    color: #070211;
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
 }
 
-/* Main */
-.discount h1{
-    color: red;
+/* Header */
+.banner{
+    background-image: url('../images/BannerImage.png');
+    border-radius: 13px;
+    padding: 157px 0px;
     text-align: center;
-    font-size: 50px;
-}
-.discount h4{
-    color: red;
-    text-align: center;
-}
-.discount h3{
-    text-align: center;
-    font-size: 30px;
-}
-.discount img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.midnight-party{
-    height: 70vh;
-    background-image: url('../images/Vectorrr.png');
+    height: 300px;
     background-repeat: no-repeat;
-    background-position: center;
-    margin: 50px 70px 30px;
-    border-radius: 10px;
 }
-.section-content{
-    color: white;
-    font-size: 50px;
-    padding: 100px 300px 20px 100px;
+#banner-title{
+    font-family: "Merriweather", serif;
+    color:#ffffff;
+    font-size: 32px;
+    font-weight: 400px;
 }
-.content{
-    padding: 0 250px 20px 100px;
-    color: white;
-}   
-.midnight-party a{
-    text-decoration: none;
-    color: white;
-    padding: 0 500px 100px 150px;
+.banner-content{
+    font-family: "Merriweather", serif;
+    color:#ffffff;
+    font-size: 72px;
+    font-weight: 900px;
+}
+/* Main */
+/* Discount section */
+.discount-text{
+    max-width: 410px;
+    text-align: center;
+    margin: 50px auto;
+}
+.discount-text h1{
+    font-family: "Inter", sans-serif;
+    color: #f00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+.discount-text h2{
+    font-family: "Inter", sans-serif;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.discount-img img{
+    padding: 0px 250px;
+}
+/* Midnight section */
+.midnight-main{
+    background-image: url('../images/Vectorrr.png');
+    height: 600px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 120px;
+}
+.midnight-main h1{
+    font-family: "Merriweather", serif;
+    color:#ffffff;
+    font-size: 64px;
+    font-weight: 900;
+}
+.midnight-content *{
+    max-width: 697px;
+    margin-bottom: 20px;
+}
+.midnight-content button{
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+.midnight-img img{
+    max-width: 319px;
+    max-height: 464px;
+    
+}
+/* time-place-date section */
+.time-date-text{
+    font-family: "Inter", sans-serif;
+    color: #070211;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 120px;
+    margin-bottom: 30px;
+}
+.time-date-content{
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.082);
+    margin: 70px auto;
+    border-radius: 8px;
+    height:450px;
+}
+
+.time-date-content button{
+    padding: 15px 30px;
+    border: none;
+    color: #ffffff;
+    background: #f00;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
 }
-.time-date{
-    background-color: pink;
-    background-position: center;
-    margin: 50px 70px 30px;
-    border-radius: 10px;
-    text-align: center;
-    height: 150px;
-    width: 1200px;
+span{
+    color: #f00;
 }
-.time-date h5{
-    padding:20px 100px 10px;
+/* comming-soon */
+.comming-soon-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right h1{
+    color: #f00;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+}
+.left *{
+    max-width: 393px;
+    margin-bottom: 20px;
+}
+.right *{
+    max-width: 276px;
+    margin-bottom: 20px;
+}
+.right{
+    margin-top: 40px;
+}
+.holiday-text{
+    color: #070211;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* portfolio section */
+.portfolio-content *{
+    margin-bottom: 20px;
+    max-width: 896px;
+}
+.portfolio-img img{
+    width: 424px;
+    height: 450px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+/* subscribe section */
+.subscribe-main{
+    background-color: rgba(255, 0, 0, 0.055);
+    height: 600px;
+}
+.subscribe-content{
+    text-align: center;
+    margin: 40px auto;
+    max-width: 896px; 
+    padding-top: 70px;
+}
+.subscribe-content *{
+    margin-bottom: 20px;
+}
+#subscribe form{
+    width: 648px;
+    margin:20px auto;
+    display: flex;
+    gap: none;
+}
+#subscribe form input{
+    flex-grow: 1;
+    font-size: 18px;
+    padding: 30px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+}
+#subscribe button{
+    border-radius: 0px 50px 50px 0px;
+    border:none;
+    background: #f00;
+    width: 210px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 300;
+}
+/* footer */
+footer{
+    background-color: #070211;
+}
+.footer-text{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    color: #ffffff;
+    max-width: 375px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding:100px 0px 50px 0px;
+}
+.phone{
+    display: flex;
+    gap:10px;
+}
+.website{
+    display: flex;
+    gap:10px;
+}
+a{
+    text-decoration: none;
+}
+.social-links{
+    text-align: center;
+    margin: 20px auto;
+}
+.footer-end{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.footer-end button{
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
 }
