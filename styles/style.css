@@ -33,7 +33,7 @@ p{
 
 /* Header */
 .banner{
-    background-image: url('../images/BannerImage.png');
+    background-image: linear-gradient(#070211, #07021104) ,url('../images/BannerImage.png');
     border-radius: 13px;
     padding: 157px 0px;
     text-align: center;
@@ -78,12 +78,14 @@ p{
 }
 /* Midnight section */
 .midnight-main{
-    background-image: url('../images/Vectorrr.png');
+    background-image: linear-gradient(to right, #070211, #07021104) ,url('../images/Vectorrr.png');
+    border-radius: 16px 0px 0px 13px;
     height: 600px;
     display: flex;
     align-items: center;
     gap: 30px;
     padding-left: 120px;
+    
 }
 .midnight-main h1{
     font-family: "Merriweather", serif;
@@ -120,9 +122,9 @@ p{
 }
 .time-date-content{
     text-align: center;
-    background-color: rgba(255, 0, 0, 0.082);
+    background:linear-gradient(rgba(255, 0, 0, 0.082), #ffffff) ;
     margin: 70px auto;
-    border-radius: 8px;
+    border-radius: 16px;
     height:450px;
 }
 
@@ -143,6 +145,7 @@ span{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 100px auto;
 }
 .right h1{
     color: #f00;
@@ -158,15 +161,58 @@ span{
     margin-bottom: 20px;
 }
 .right{
-    margin-top: 40px;
+    margin-top: 130px;
 }
+.right img{
+    margin-top: 20px;
+}
+.middle img{
+    border: 15px solid #f00;
+    border-radius: 50%;
+    padding: 30px;
+}
+/* holiday section */
 .holiday-text{
     color: #070211;
     font-family: "Inter", sans-serif;
     font-size: 24px;
     font-weight: 500;
 }
-
+.holiday-headline{
+    font-family: "Merriweather", serif;
+    color:#070211;
+    font-size: 72px;
+    font-weight: 900px;
+}
+.holiday-content *{
+    margin-bottom: 10px;
+}
+.holiday-content {
+    width: 900px;
+    text-align: center;
+    margin: 50px auto;
+}
+.holaday-images{
+    display: flex;
+    background-image: url('../images/Rectangle2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 662px;
+}
+.gift{
+    width:674px;
+}
+.discount-percent{
+    width:220px;
+    height: 220px;
+    position: absolute;
+    margin:150px 200px 100px 800px;
+}
+.girl{
+    width: 429px;
+    height: 433px;
+    margin-left: 218px;
+}
 /* portfolio section */
 .portfolio-content *{
     margin-bottom: 20px;
@@ -178,6 +224,10 @@ span{
     margin-right: 10px;
     margin-top: 10px;
 }
+.portfolio-img img:hover{
+    transform: scale(1.2);
+}
+
 /* subscribe section */
 .subscribe-main{
     background-color: rgba(255, 0, 0, 0.055);
@@ -237,12 +287,20 @@ footer{
     display: flex;
     gap:10px;
 }
+.footer-contact{
+    margin-right: 100px;
+}
 a{
     text-decoration: none;
 }
 .social-links{
     text-align: center;
     margin: 20px auto;
+    padding: 20px;
+    width: 1320px;
+    border-top: 1px solid #ffffff1e;
+    border-bottom: 1px solid #ffffff1e;
+    
 }
 .footer-end{
     display: flex;
